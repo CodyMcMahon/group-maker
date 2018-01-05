@@ -16,7 +16,7 @@ function launch(){
 		console.log("ZERO Group!!!");
 		error.innerHTML = "ZERO GROUP!!";
 	}
-	else if(students/groups <= students%groups){
+	else if(Math.floor(students/groups) <= students%groups){
 		console.log("error!!!!!");
 		error.innerHTML = "some error!!1";
 	}
