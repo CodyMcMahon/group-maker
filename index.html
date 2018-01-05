@@ -1,0 +1,32 @@
+<!html>
+<head>
+	<script src="core.js"></script>
+	<script src="student_object.js"></script>
+	<script src="update_state.js"></script>
+	<script src="art.js"></script>
+	<script src="startup.js"></script>
+</head>
+<body onload="startup()">
+	<div>
+		<span>
+			number of students
+		</span>
+		<input id="student-num">
+		</input>
+		<span>
+			size of groups
+		</span>
+		<input id="size-of-group">
+		</input>
+		<button onclick="launch()">
+			GO!!
+		</button>
+		<button onclick="reset_app()">
+			reset
+		</button>
+		<span id="error" color="red"></span>
+	</div>
+	<canvas id="screen" width = "1000" height = "500" background-color = "white">
+	
+	</canvas>
+</body>
